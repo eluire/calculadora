@@ -1,0 +1,31 @@
+.buttom{
+    /* height: 60px;
+    /* width: 60px;
+    display: inline;  */
+    background: #f0f0f0;
+    border: solid 1px #888;
+    font-size: 1.4em;
+    outline: none;
+
+}
+
+.buttom:active {
+    background-color:#ccc;
+}
+
+.buttom.double {
+    grid-column: span 2;
+}
+
+.buttom.triple {
+    grid-column: span 3;
+}
+
+.buttom.operation {
+    background-color: #fa8231;
+    color: #FFF;
+}
+
+.buttom.operation:active {
+    background-color: #fa8231cc;
+}

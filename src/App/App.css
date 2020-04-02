@@ -1,0 +1,21 @@
+/* @font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf');
+} */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    color: #333;
+}
