@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css'
-import Calculadora from '../Components/Calculadora/Calculadora'
-function App() {
-  return (
-    <Calculadora/>
-  );
+import Routes from '../routes'
+class App extends Component {
+  render(){
+    return(
+      <div className="App">
+      <Routes/>
+      </div>
+    );
+  }
 }
 
 export default App;
