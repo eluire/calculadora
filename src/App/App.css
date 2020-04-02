@@ -19,3 +19,18 @@ body{
     background: linear-gradient(to right, #bdc3c7, #2c3e50);
     color: #333;
 }
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover{
+    color: black;
+}
