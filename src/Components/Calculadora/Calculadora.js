@@ -81,7 +81,7 @@ class Calculadora extends Component {
                 <div className= 'calculator'>
                     <Visor value= { this.state.displayValue }/>
                     <Botoes label= 'AC' click ={this.limpar_memoria} triple/>
-                    <Botoes label= '/' click = {this.add_digito} operation/>
+                    <Botoes label= '/' click = {this.add_operacao} operation/>
                     <Botoes label= '7' click = {this.add_digito}/>
                     <Botoes label= '8' click = {this.add_digito}/>
                     <Botoes label= '9' click = {this.add_digito}/>
